@@ -1,0 +1,24 @@
+{
+  "name": "infnet_backend_typescript",
+  "version": "1.0.0",
+  "description": "Trabalho final da disciplina de Backend com Express & NodeJS do curso de Pós-Graduação em Desenvolvimento Web Full Stack da Infnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build index.js",
+    "start": "node build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TallesSC/Infnet_Backend_TypeScript.git"
+  },
+  "author": "Talles Siqueira Ceolin",
+  "license": "ISC",
+  "homepage": "https://github.com/TallesSC/Infnet_Backend_TypeScript#readme",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
