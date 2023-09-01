@@ -2,11 +2,10 @@
   "name": "infnet_backend_typescript",
   "version": "1.0.0",
   "description": "Trabalho final da disciplina de Backend com Express & NodeJS do curso de Pós-Graduação em Desenvolvimento Web Full Stack da Infnet",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node build index.js",
-    "start": "node build index.js"
+    "start-dev": "ts-node-dev app.ts",
+    "start": "ts-node app.ts"
   },
   "repository": {
     "type": "git",
@@ -16,9 +15,25 @@
   "license": "ISC",
   "homepage": "https://github.com/TallesSC/Infnet_Backend_TypeScript#readme",
   "dependencies": {
-    "typescript": "^5.1.6"
+    "@adminjs/express": "^5.0.1",
+    "@adminjs/sequelize": "^3.0.0",
+    "adminjs": "^6.5.0",
+    "bcrypt": "^5.1.1",
+    "chart.js": "4.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-handlebars": "6.0.6",
+    "express-mysql-session": "^3.0.0",
+    "express-session": "^1.17.3",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1"
   },
   "devDependencies": {
-    "ts-node-dev": "^2.0.0"
+    "ts-node-dev": "^2.0.0",
+    "@types/express": "^4.17.17",
+    "@types/express-session": "^1.17.7"
   }
 }
